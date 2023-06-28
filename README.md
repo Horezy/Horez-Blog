@@ -1,35 +1,26 @@
-# Horez-Blog
+# Horez-Blog个人博客项目
 
-This template should help get you started developing with Vue 3 in Vite.
+这是一个完全独立开发的博客项目，以便熟练各技术栈的使用和链接
 
-## Recommended IDE Setup
+# 开发指南
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+使用Vue3 + elementPlus
 
-## Customize configuration
+工具：vs code
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## 启动方式
 
-## Project Setup
+在项目根目录
 
-```sh
+```shell
+# 安装依赖包
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
+# 运行项目
 npm run dev
 ```
 
-### Compile and Minify for Production
+# 功能模块
 
-```sh
-npm run build
-```
+# 技术栈
 
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+# 演示图
