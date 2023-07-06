@@ -3,14 +3,21 @@
 </script>
 
 <template>
-  <!-- 一级路由出口 -->
-  <RouterView></RouterView>
-  <div class="test">哈哈哈</div>
+  <div class="content">
+    <!-- 一级路由出口 -->
+    <RouterView></RouterView>
+  </div>
 </template>
 
 <style scoped lang="scss">
-.test{
-  color: $priceColor;
+.content {
+  background-image: url('./assets/images/躺床.jpg');
+  /* 背景图 */
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed; /* 固定背景图片不动 */
 }
 
 header {
