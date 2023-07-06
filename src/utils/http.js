@@ -5,7 +5,7 @@ const domain = window.location.hostname;  //  获取当前域名
 /* console.log(domain); */
 
 const httpInstance = axios.create({
-  baseURL: `http://${domain}:3000`,
+  baseURL: `http://${domain}`,
   timeout: 5000
 })
 
