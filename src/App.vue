@@ -18,6 +18,9 @@
   width: 100%;
   height: 100%;
   background-attachment: fixed; /* 固定背景图片不动 */
+  @media (max-width: 768px) {
+    background-size: contain;
+  }
 }
 
 header {
