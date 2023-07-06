@@ -26,7 +26,7 @@ export default {
 .blog {
     max-width: 800px;
     padding: 50px;
-    height: 700px;
+    height: 550px;
     color: rgba(255, 255, 255, 0.8);
     padding-top: 130px;
     .title{

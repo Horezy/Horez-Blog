@@ -1,8 +1,22 @@
 <script setup>
+import { onMounted } from 'vue';
+
+
+const scrollToBottom = () => {
+      const content = document.getElementById("app");
+      const scrollHeight = content.scrollHeight;
+      window.scrollTo({
+        top: scrollHeight,
+        behavior: "smooth"
+      });
+    }
 
 </script>
 
 <template>
+    <a v-on:click="scrollToBottom" class="center-a">
+        <img class="center-image" src="@/assets/images/剑头.png" alt="">
+    </a>
     <div class="footer">
         <h1>我的博客有什么特点？</h1>
     </div>
@@ -45,6 +59,7 @@
 </template>
 
 <style scoped lang="scss">
+
 .footer {
     display: flex;
     align-items: center;
@@ -117,9 +132,38 @@ h2 {
 .image {
     width: 100px;
     height: 100px;
+
     img {
         width: 100%;
         height: 100%;
         margin-left: 75px;
     }
-}</style>
+}
+
+.center-image {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    animation: floating 1s ease-in-out infinite;
+}
+.center-a {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+  cursor: pointer;
+}
+
+@keyframes floating {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+</style>
