@@ -4,7 +4,7 @@ const port = 3000; // 设置你希望服务器监听的端口号
 
 // 添加中间件来设置响应头
 app.use((req, res, next) => {
-  const allowedDomains = ['http://localhost:5173', 'http://192.168.0.108:5173'];
+  const allowedDomains = ['http://localhost:5173', 'http://192.168.0.108:5173', 'http://192.168.1.7:5173'];
   // 检查请求的域名是否在允许的域名列表中
   if (allowedDomains.includes(req.headers.origin)) {
     res.setHeader('Access-Control-Allow-Origin', req.headers.origin);

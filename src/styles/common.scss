@@ -41,17 +41,17 @@ input[type='checkbox'] {
   padding: 0;
   outline: none;
   border: none;
-  -webkit-appearance: none;
+  appearance: none;
   &::placeholder {
     color: #ccc;
   }
 }
-img {
+/* img {
   max-width: 100%;
   max-height: 100%;
   vertical-align: middle;
   background: #ebebeb url('@/assets/images/200.png') no-repeat center / contain;
-}
+} */
 ul {
   list-style: none;
 }
